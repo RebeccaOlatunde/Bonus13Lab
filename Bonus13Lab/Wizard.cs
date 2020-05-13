@@ -1,14 +1,14 @@
-﻿using System;
+using System;
 namespace Bonus13Lab
 {
     public class Wizard : MagicUsingCharacter
     {
         public int SpellNumber { get; set; }
 
-        public Wizard(int spellnumber, int magicalenergy, string name, int strength, int intelligence):base(magicalenergy, name, strength, intelligence)
+        public Wizard(int spellNumber, int magicalenergy, string name, int strength, int intelligence):base(magicalenergy, name, strength, intelligence)
 
         {
-            SpellNumber = SpellNumber;
+            SpellNumber = spellNumber;
         }
         public override void Play()
         {
